@@ -23,7 +23,7 @@
   0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0,
   0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0,
   0, 1, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0,
-  0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 3,
+  0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0,
   0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0,
   0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0,
   0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0,
@@ -35,7 +35,7 @@
   0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 ];
         var Map1 = [
-  4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0,
+  4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
   0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0,
   0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 0, 0,
   0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0,
@@ -58,7 +58,33 @@
 ];
 
 
-
+ var Map2= [
+  4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+  0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0,
+  0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0,
+  0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0,
+  0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0,
+  0, 1, 0, 1, 0, 0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 1, 1, 0, 0,
+  0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 0, 0,
+  0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0,
+  0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 1, 0, 1, 1, 0, 0,
+  0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0,
+  0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0,
+  0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0,
+  0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0,
+  0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0,
+  0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0,
+  0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 0,
+  0, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 0,
+  0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0,
+  0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0,
+  0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0,
+  0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 0,
+  0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0,
+  0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0,
+  3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 0,
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+];
         var tileH = 40;//tile height and width set to 40px
         var tileW = 40;
         var mapH; //number of tiles
@@ -68,12 +94,15 @@
         var brick = new Image;
         var wallPicture = new Array();
         wallPicture = [ "http://www.clker.com/cliparts/b/m/0/m/n/D/brick-wall-jail.svg",
-        "https://s-media-cache-ak0.pinimg.com/236x/b2/5c/4e/b25c4e97e3ea30acaf41cfafff2e8191.jpg"];
+        "https://s-media-cache-ak0.pinimg.com/236x/b2/5c/4e/b25c4e97e3ea30acaf41cfafff2e8191.jpg","https://s-media-cache-ak0.pinimg.com/originals/0e/98/9b/0e989bc5eae0aa4382e6ab07300b7b04.jpg"];
+        var walkingArea = new Image;
+        walkingArea.src = "https://s-media-cache-ak0.pinimg.com/736x/90/fc/e6/90fce6e9c6bd9581c6e10b5e1e75705f.jpg ";
         //brick.src = wallPicture[0];
         var player_Pic = new Image;
         player_Pic.src = "https://themovieuniverse.files.wordpress.com/2012/04/wall-e.png";
         var exit;
         var timeStart,gameTime = 0;
+        var gameTransistion;
 
         var time = 0;
         var gamePlay;
@@ -86,7 +115,9 @@
         var current_map = [];
          current_map = "Map"+n;
          var plan = new Array();
-         var layouts = [Map0,Map1];
+         var layouts = [Map0,Map1,Map2];
+         var game = new Array();
+         var timers = new Array();
 
         //var fiveMinutes = ("level" + n).gameTime;
 
@@ -95,7 +126,7 @@
            this.height = n*5 + 15;
            this.width = n*5 + 15;
            this.index = n;
-           this.gameTime = 90 + (n*60);
+           this.gameTime = 30 + (n*60);
            this.wallPicture = wallPicture[n];
            this.mapH = n*5 + 15;
            this.mapW = n*5 + 15;
@@ -105,19 +136,20 @@
 
         for(var j = 0;j<3;j++){
           plan[j] = new level(j);
+
         }
 
           
-           brick.src = plan[i].wallPicture; 
+           /*brick.src = plan[i].wallPicture; 
            fiveMinutes = plan[i].gameTime;
            gameMap = plan[i].layout;
            mapW = plan[i].mapW;
-           mapH = plan[i].mapH;
+           mapH = plan[i].mapH;*/
 
 
            //var gameMap = current_map;
-        
-        
+
+
         var keysDown = {
           37: false,//left arrow
           38: false,//up arrow
@@ -226,7 +258,7 @@
               return (x+(y*mapW));
             }
 
-
+   
     
         window.onload = function(){
            ctx = canvas.getContext("2d");
@@ -258,8 +290,11 @@
               if(e.keyCode==32&&status==0){
                 spaceBarPressed = true;
                  display = document.querySelector('#time');
-                 gamePlay = requestAnimationFrame(drawGame);
-                 startTimer(fiveMinutes, display);
+                // gamePlay = requestAnimationFrame(drawGame);
+                   updateLevel();
+        
+
+                 //startTimer(fiveMinutes, display);
                  var info = document.getElementById("instruction");
                  info.style.display = "none";                 
                  status++;
@@ -272,8 +307,12 @@
         };  
          
 
-      function startTimer(duration, display) {
+       level.prototype.clock = function (duration, display,i) {
        var timer = duration, minutes, seconds;
+       console.log(timer);
+       clearInterval(game);
+       console.log("this is the iteration"+i);
+
 
        function  timerDisplay() {
         minutes = parseInt(timer / 60, 10);
@@ -288,44 +327,34 @@
         if (--timer < 0) {
             timer = duration;
         }
-    }
-      function check(){
-        if(minutes=="00"&& seconds == "00")
-        {
-          cancelAnimationFrame(gamePlay);
-          clearInterval(game);
-          if(levelStatus==0){
-            //updateLevel();
-          }
-        }
-    }
-    timerDisplay();
-    var game = setInterval(function(){
-      timerDisplay()
-      check()
-    }, 1000);
-}
-        function updateLevel(){
+     }
+        function check(){
+          if(minutes=="00"&& seconds == "00")
+         {
+          // cancelAnimationFrame(gamePlay);
+           clearInterval(game[i]);
+           if(levelStatus==i){
+            updateLevel();
+           }
+         }
 
-              i++;
-         
-          brick.src = plan[i].wallPicture; 
-          fiveMinutes = plan[i].gameTime;
-          gameMap = plan[i].layout;
-          mapW = plan[i].mapW;
-          mapH = plan[i].mapH;
-          player.placeAt(1,1);
-          startTimer(fiveMinutes, display);
-          display = document.querySelector('#time');
+      }
+       timerDisplay();
+       clearInterval(game[i-1]);
 
-
-        }
-
-        function drawGame()
+       game[i] = setInterval(function(){
+        clearInterval(game[i-1]);
+    
+       timerDisplay();
+       console.log(i+"th");
+       check();
+      
+     }, 1000);
+ };
+     
+          function drawGame()
         {  
-            
-
-                   
+                         
               if(ctx==null){
               
                 return;
@@ -352,6 +381,7 @@
                 //* if the right key is pressed, if it's position is not out of bounds and if the new position is ascessable 
 
                 if(keysDown[37]&&player.tileFrom[0]>0){
+
                   if(gameMap[toIndex(player.tileFrom[0]-1,player.tileFrom[1])]==1){
                       player.tileTo[0] -= 1;
                             }
@@ -359,8 +389,10 @@
 
                    else if(gameMap[toIndex(player.tileFrom[0]-1,player.tileFrom[1])]==3){
                       player.tileTo[0] -= 1;
+                      levelStatus++; 
+                      timer = 0;
                       updateLevel();
-                      levelStatus++;                 
+                                      
                             }//to check if the the next level exit has been reached
                   }
                                         
@@ -372,25 +404,31 @@
 
                   else if(gameMap[toIndex(player.tileFrom[0],player.tileFrom[1]-1)]==3){
                       player.tileTo[1] -= 1;
-                      updateLevel();
                       levelStatus++;
+                      timer = 0;
+                      updateLevel();
+                    
                             }          
                   }
 
       
                 else if(keysDown[39]&&player.tileFrom[0]<(mapW-1)){
+
                   if(gameMap[toIndex(player.tileFrom[0]+1,player.tileFrom[1])]==1){
                       player.tileTo[0] += 1;//to move to the right
                             }
 
                   else if(gameMap[toIndex(player.tileFrom[0]+1,player.tileFrom[1])]==3){
                       player.tileTo[0] += 1;
-                      updateLevel();
                       levelStatus++;
+                      timer = 0;
+                      updateLevel();
+                    
                             }             
                   }
 
                 else if(keysDown[40]&&player.tileFrom[1]<(mapH-1)) {
+
                   if(gameMap[toIndex(player.tileFrom[0],player.tileFrom[1]+1)]==1){
                       player.tileTo[1] += 1;// to move down
 
@@ -398,8 +436,10 @@
 
                   else if(gameMap[toIndex(player.tileFrom[0],player.tileFrom[1]+1)]==3){
                       player.tileTo[1] += 1;
-                      updateLevel();
                       levelStatus++;
+                      timer = 0;
+                      updateLevel();
+                    
                             } 
 
                    
@@ -418,6 +458,7 @@
 
               for(var y = viewport.startTile[1]; y<viewport.endTile[1];y++){
                 for(var x =viewport.startTile[0];x<viewport.endTile[0];x++){
+                  gameMap = plan[i].layout;
 
                   switch(gameMap[y*mapW+x])
                   {
@@ -430,18 +471,20 @@
                   case 3:                     
                     ctx.fillStyle = "#08af4b";
                     ctx.fillRect(x*tileW+viewport.offSet[0],y*tileH+viewport.offSet[1],tileW,tileH);
-                    exit = ((y*mapW)+x);
+                    //exit = ((y*mapW)+x);
                     break;
                   case 4:                     
                     ctx.fillStyle = "#0000ff";
                     ctx.fillRect(x*tileW+viewport.offSet[0],y*tileH+viewport.offSet[1],tileW,tileH);
-                    exit = ((y*mapW)+x);  
+                    //exit = ((y*mapW)+x);  
                     break;
 
                   default:
                     ctx.fillStyle = "#ccffcc";
-                    ctx.fillRect(x*tileW+viewport.offSet[0],y*tileH+viewport.offSet[1],tileW,tileH);
+                    //ctx.fillRect(x*tileW+viewport.offSet[0],y*tileH+viewport.offSet[1],tileW,tileH);
+                    ctx.drawImage(walkingArea,x*tileW+viewport.offSet[0],y*tileH+viewport.offSet[1],tileW,tileH);
                   }
+
                   
                 }
               }
@@ -461,6 +504,32 @@
            
 
          }
+
+
+
+      function updateLevel(){
+
+             if(levelStatus!=0){
+              i++;
+              clearInterval(game[i]);
+            }  
+
+          brick.src = plan[i].wallPicture; 
+          fiveMinutes = plan[i].gameTime;
+          gameMap = plan[i].layout;
+          mapW = plan[i].mapW;
+          mapH = plan[i].mapH;
+          //mapH = 25;
+          //mapW = 25;
+          player.placeAt(1,1);
+         
+          plan[i].clock(fiveMinutes, display,i);
+          display = document.querySelector('#time');
+          gamePlay = requestAnimationFrame(drawGame);
+
+
+        }
+
 
 
          
